@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIH1L | By GenericApple</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            overflow: hidden;
+            background: linear-gradient(45deg, #3498db, #e74c3c);
+            animation: backgroundAnimation 10s linear infinite alternate;
+        }
+
+        @keyframes backgroundAnimation {
+            0% {
+                background: linear-gradient(45deg, #3498db, #e74c3c);
+            }
+            100% {
+                background: linear-gradient(45deg, #e74c3c, #3498db);
+            }
+        }
+
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .app-icon {
+            width: 100px;
+            height: 100px;
+            background: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+        }
+
+        .app-icon img {
+            max-width: 80px;
+            max-height: 80px;
+        }
+
+        .app-text {
+            margin-top: 20px;
+            color: #fff;
+            font-size: 24px;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .button {
+            background: #fff;
+            color: #333;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="app-icon">
+            <img src="your-app-icon.png" alt="App Icon">
+        </div>
+        <div class="app-text">
+            <h1>NIH1L</h1>
+        </div>
+        <div class="buttons">
+            <button class="button">Install</button>
+            <button class="button">Get IPA</button>
+        </div>
+    </div>
+</body>
+</html>
